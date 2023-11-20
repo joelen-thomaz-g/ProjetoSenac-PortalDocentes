@@ -1,0 +1,15 @@
+<section id="docentes">
+  <ul>
+    <% listAllDocentes.forEach((docente) => { %>
+    <li>
+      <div>
+        <h2><%= docente.nome %></h2>
+        <p>Área de formação: <%= docente.formacao %></p>
+        <p><%= docente.formacaoAdicionais %></p>
+        <p><%= docente.projetos %></p>
+        <p><%= docente.areaAtuacaoSenac %></p>
+      </div>
+    </li>
+    <% }) %>
+  </ul>
+</section>

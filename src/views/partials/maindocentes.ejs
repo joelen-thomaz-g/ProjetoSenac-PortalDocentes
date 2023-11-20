@@ -1,0 +1,17 @@
+<div id="h2">
+    <h2>Corpo Docente do Senac</h2>
+</div>
+<section class="corpodocente">
+    <% listAllDocentes.forEach((docente) => { %>
+    <div id="carddocente">
+        <div id="infodocente">
+            <img id="imgproduto" src="imagens/logo_senac.png" alt="" />            
+            <h1><%= docente.nome %></h1>           
+            <h3>Formação</h3>
+            <p><%= docente.formacao %></p>
+            <h3>Area de atuação <br>no <br> Senac-Paranaguá</h3>
+            <p><%= docente.areaAtuacaoSenac %></p>
+            <a href="" target="_blank"> <button type="button">Saiba Mais</button></a>
+        </div>
+    </div>
+    <% }) %>

@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background: #3a6da1;
+}
+body {
+  background-color: #3a6da1;
+}
+
+#logosenac {
+  display: flex;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 30%;
+}
+.galery {
+  width: 100;
+  height: 13rem;
+  background-color: black;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+.galery .fotos {
+  width: 500%;
+  animation-name: animacao;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.galery .fotos img {
+  width: 19.9%;
+}
+#menu {
+  background-color: #3a6da1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+#menu div {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 10px;
+}
+
+#menu div img {
+  border-radius: 50px;
+  width: 5rem;
+}
+footer {
+  padding: 10px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background: #ff4800;
+  color: #ffffff;
+}
+@keyframes animacao {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  95% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -400%;
+  }
+}

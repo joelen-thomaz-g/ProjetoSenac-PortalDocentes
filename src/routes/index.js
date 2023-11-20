@@ -1,4 +1,4 @@
-import { Router } from "express";
+import express, { Router } from "express";
 import { DocenteController} from "../controllers/DocenteController.js"; 
 
 const routes = Router();
